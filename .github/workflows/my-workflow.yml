@@ -11,3 +11,5 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - name: New Jokes EveryDay
+        uses: ./.github/actions/joke-action
